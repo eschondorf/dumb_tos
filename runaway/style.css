@@ -3,18 +3,19 @@
     margin: 0;
     box-sizing: border-box;
     user-select: none;
+    font-size: .8rem;
   }
   
 
   
   button {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 2rem;
     width: 5rem;
-    font-size: 1.5rem;
+    font-size: 1 rem;
     border-radius: 5px;
     border: none;
     box-shadow: 1px 1px 5px black;
