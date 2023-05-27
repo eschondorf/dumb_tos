@@ -12,7 +12,7 @@ function func() {
   if (cont >= 1){
    counterElem.innerHTML = cont-1;
    count++;
-  const blu = 255 - ((666-cont)/666)*255;
+  const blu = 255 - ((66-cont)/66)*255;
   const rd = 255-blu;
   btncolor.style.backgroundColor = "rgb("+rd.toString()+", 0, "+blu.toString()+")";}
   console.log(document.getElementById("butn").innnerHTML)
